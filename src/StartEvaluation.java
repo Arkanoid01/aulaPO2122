@@ -9,6 +9,8 @@ public class StartEvaluation {
 
     public static void main(String[] args){
 
+		System.out.print("Ciao commit!");
+
         String round = "1";
 
         List<String> targets = Arrays.asList("junit", "slf4j-api", "log4j", "guava", "commons-io", "httpclient", "commons-lang3");
