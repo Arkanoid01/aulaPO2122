@@ -22,6 +22,8 @@ public class StartEvaluation {
         String updateLibFile = "data/Utils/libraryVer/ver.csv";
 
         String outputFolder = "data/evaluation/output/";
+		
+		System.out.print("Ciao commit!");
 
         Evaluation.startEvaluation(folder, issueFolder, updateLibFile, round,5, targets, outputFolder);
     }
